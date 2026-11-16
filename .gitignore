@@ -1,0 +1,32 @@
+# Credentials
+kaggle.json
+.env
+.env.*
+*.pem
+*.key
+
+# Raw or restricted data
+/data/
+adhdata.csv
+*.edf
+*.edf+
+
+# Python and notebook artifacts
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.toc
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
