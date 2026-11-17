@@ -15,11 +15,9 @@ Does a multi-domain EEG feature representation improve subject-level ADHD classi
 - The submitted notebook version formed 5,621 epochs using 2-second windows (256 samples) and a 3-second step (384 samples), leaving a 1-second gap.
 - The feature matrix contains 199 multi-domain features per epoch. The spectral subset contains 40 features: theta, alpha, and beta power, theta/beta ratio, and theta/alpha ratio across eight channels.
 
-Do not redistribute the raw EEG dataset unless its terms explicitly allow redistribution. Obtain it directly from the original source or the Kaggle mirror. Store `adhdata.csv` locally at `data/adhdata.csv`; raw data must remain untracked by Git.
-
 ### Kaggle access
 
-You may download the CSV through the Kaggle website or configure the Kaggle CLI locally. Never commit `kaggle.json`, API tokens, passwords, or credential-bearing notebook outputs. For Colab, use a private secret or a secure runtime upload.
+You may download the CSV through the Kaggle website or configure the Kaggle CLI locally.
 
 ## Methods
 
